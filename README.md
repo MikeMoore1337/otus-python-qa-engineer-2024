@@ -1,1 +1,1 @@
-# otus-python-qa-engineer-2024
+# Домашние задания по курсу Otus "Python QA Engineer" 2024
