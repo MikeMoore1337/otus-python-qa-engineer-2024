@@ -1,0 +1,80 @@
+# isort .
+# black .
+# flake8 --config .flake8
+# ruff format .
+# ruff check .
+
+
+cache-dir = "~/.ruff_cache"
+
+target-version = "py311"
+
+line-length = 120
+indent-width = 4
+
+fix = true
+
+lint.fixable = ["ALL"]
+lint.unfixable = []
+lint.select = ["E4", "E501", "E7", "E9", "F", "I"]
+lint.ignore = []
+lint.exclude = [
+    ".git",
+    "__pycache__",
+    "venv",
+    ".gitignore",
+    "tmp",
+    ".pytest_cache",
+    ".mypy_cache",
+    ".ruff_cache",
+    ".venv",
+    ".bzr",
+    ".direnv",
+    ".eggs",
+    ".git-rewrite",
+    ".hg",
+    ".nox",
+    ".pants.d",
+    ".pytype",
+    ".svn",
+    ".tox",
+    "__pypackages__",
+    "_build",
+    "buck-out",
+    "build",
+    "dist",
+    "node_modules",
+    "venv",
+]
+
+[format]
+quote-style = "double"
+indent-style = "space"
+exclude = [
+    ".git",
+    "__pycache__",
+    "venv",
+    ".gitignore",
+    "tmp",
+    ".pytest_cache",
+    ".mypy_cache",
+    ".ruff_cache",
+    ".venv",
+    ".bzr",
+    ".direnv",
+    ".eggs",
+    ".git-rewrite",
+    ".hg",
+    ".nox",
+    ".pants.d",
+    ".pytype",
+    ".svn",
+    ".tox",
+    "__pypackages__",
+    "_build",
+    "buck-out",
+    "build",
+    "dist",
+    "node_modules",
+    "venv",
+]
